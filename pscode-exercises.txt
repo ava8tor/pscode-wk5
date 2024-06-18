@@ -1,0 +1,92 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+(Your pseudocode here)
+
+Ask for a input, requesting that it be a integer (or whole number)
+
+x = input
+
+Confirm x is a integer
+
+If x is not a integer, start from beginning and ask for a new input
+
+If x is a number, continue
+
+
+Confirm if x has a remainder 0 or 1 (or greater than 0) if divided by 2  
+y = x modulo 2
+
+If y = 0, print "[x] is a even number"
+
+If y != 0, print "[x] is a odd number" 
+
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+input() function {
+Ask for a input, requesting that it be a integer (or whole number)
+
+x = input
+
+Confirm x is a integer
+
+If x is not a integer, start from beginning and ask for a new input
+
+return x
+}
+
+
+Perform the input funtion (see above) 5 times separately and store the returned result in the following variables:
+a, b, c, d, and e
+a = input()
+b = input()
+c = input()
+d = input()
+e = input()
+
+
+Calculate the average (avg) among the 5 inputted numbers
+avg = (a + b + c + d + e) / 5
+
+Calculate the maximum (max) value among the 5 inputted numbers
+max = a
+if b > max, max = b
+if c > max, max = c
+if d > max, max = d
+if e > max, max = e
+
+Calculate the minimum (min) value among the 5 inputted numbers
+min = a
+if b < min, min = b
+if c < min, min = c
+if d < min, min = d
+if e < min, min = e
+
+Print out the following lines:
+"Input: [a], [b], [c], [d], [e]"
+"Average = [avg]"
+"Maximum Value = [max]"
+"Minimum Value = [min]"
+
+
+-- END --
